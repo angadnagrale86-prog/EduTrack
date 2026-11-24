@@ -1,0 +1,100 @@
+.study-topic-page {
+  min-height: 70vh;
+  padding: 70px 8%;
+  background: #f7f9fc;
+}
+
+.study-topic-header {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.study-topic-icon {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.study-topic-header span {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.study-topic-header h1 {
+  font-size: 42px;
+  color: #111827;
+  margin: 12px 0;
+}
+
+.study-topic-header p {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.study-topic-content {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  gap: 25px;
+}
+
+.learning-section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+.learning-section h2 {
+  color: #111827;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.learning-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.learning-section li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #eef2f7;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.learning-section li:last-child {
+  border-bottom: none;
+}
+
+.learning-section li span {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.study-topic-footer {
+  max-width: 900px;
+  margin: 35px auto 0;
+}
+
+.back-study-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #4338ca;
+  color: white;
+  padding: 13px 22px;
+  border-radius: 9px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.back-study-btn:hover {
+  background: #3730a3;
+}
